@@ -12,62 +12,76 @@
         margin: 0;
       }
       #showcase {
-        background-color: lightcoral;
+        background-color: #99627a;
         height: 500px;
-        width: px;
+        width: 100%;
         padding: 10 px;
       }
       #how-it-works {
-        background-color: chocolate;
+        background-color: #e7cbcb;
         padding: 10px;
       }
       #main-header {
-        background-color: forestgreen;
+        background-color: #e7cbcb;
         padding: 8px 16px;
       }
 
       .main-nav {
         display: inline-block;
-        width: calc(100%-99px);
+        width: calc(100% - 99px);
         text-align: right;
       }
-      .main-nav_item {
+      .main-nav__item {
+        display: inline-block;
+        margin: 0 10px;
+        padding: 0;
+      }
+      .main-nav__item {
         display: inline-block;
         margin: 0 10px;
       }
-      .main-header_logo {
-        color: indianred;
+      .main-header__logo {
+        color: #643843;
         text-decoration: none;
         font-weight: bold;
         font-size: 21px;
       }
-      .main-nav_item a:hover,
-      .main-nav_item:hover::before {
-        color: slateblue;
+      .main-nav__item a {
+        text-decoration: none;
+        color: s;
+      }
+      .main-nav__item a:hover,
+      .main-nav__item:hover::before {
+        color: #643843;
+      }
+      .main-nav__item a:active::before,
+      .main-nav__item a:active {
+        color: #ffff;
       }
       .main-nav_item::before {
         content: "\2022";
-        color: green;
+        color: #ffff;
       }
       .main-nav_item--login a {
-        color: coral;
+        color: #ffff;
         background-color: brown;
         padding: 4px 16px;
+        border-radius: 8px;
       }
     </style>
   </head>
   <body>
-    <header class=" main-header">
-      <a href="#" class="main-header_logo">MovieApp</a>
+    <header class="main-header">
+      <a href="#" class="main-header__logo">MovieApp</a>
       <nav class="main-nav">
-        <ul class="main-nav_item">
-          <li class="main-nav_item">
+        <ul class="main-nav__item">
+          <li class="main-nav__item">
             <a href="#">Filmler</a>
           </li>
-          <li class="main-nav-item">
+          <li class="main-nav__item">
             <a href="#">Diziler</a>
           </li>
-          <li class="main-nav-item_main-nav_item--login">
+          <li class="main-nav__item main-nav_item--login">
             <a href="#">Login</a>
           </li>
         </ul>
