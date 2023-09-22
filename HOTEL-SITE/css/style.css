@@ -32,5 +32,18 @@ a{
 }
 
 h1,h2{
-    
+    font-weight: 300;
+    line-height: 1.2;
+}
+
+p{
+    margin: 1rem 0;
+}
+
+img{
+    width: 100%;
+}
+
+.text-center{
+    text-align: center;
 }
