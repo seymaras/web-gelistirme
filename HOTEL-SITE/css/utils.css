@@ -1,13 +1,13 @@
 :root{
     --white: #fff;
-    --primary: #5A96E3;
+    --primary: #186F65;
     --secondary: #EEEEEE;
     --success: #A2C579;
     --danger: #A73121;
-    --warning: #FFBB5C;
+    --warning: #FFC436;
     --info: #AED2FF;
-    --dark: #1D2D50;
-    --light: #FFFEC4;
+    --dark: #5C8374;
+    --light: #FFF5E0;
 }
 
 /* text color */
@@ -90,4 +90,19 @@
     background-color: var(--primary);
     border: 1px solid var(--primary);
     color: var(--white);
+}
+
+/* flex items */
+
+.flex-items{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    height: 100%;
+
+}
+
+.flex-items > div{
+    padding: 20px;
+    flex-basis: 100%;
 }
