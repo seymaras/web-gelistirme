@@ -148,3 +148,18 @@ img{
     padding: 1rem;
     border-radius: 50%;
 }
+
+/* about */
+
+#about {
+    color: #fff;
+}
+
+.flex-columns h2{
+    font-size: 4rem;
+    font-weight: 400;
+}
+
+.flex-columns p{
+    margin: 2rem 0;
+}
