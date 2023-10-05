@@ -152,14 +152,30 @@ img{
 /* about */
 
 #about {
-    color: #fff;
+    color: #5C8374;
 }
 
-.flex-columns h2{
+.about h2{
     font-size: 4rem;
     font-weight: 400;
 }
 
-.flex-columns p{
+.about p{
     margin: 2rem 0;
+}
+
+
+.action{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+
+}
+
+/* gallery */
+
+.gallery img:hover{
+    opacity: 0.8;
+    cursor: pointer;
 }
